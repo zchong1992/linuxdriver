@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Downloads/driver_test/hello.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-135-generic/scripts/module-common.lds --build-id  -o /home/ubuntu/Downloads/driver_test/hello.ko /home/ubuntu/Downloads/driver_test/hello.o /home/ubuntu/Downloads/driver_test/hello.mod.o
